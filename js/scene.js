@@ -10,7 +10,7 @@ const pac01 = PIXI.Sprite.from('/img/pac01.png');
 app.stage.addChild(pac01);
 
 pac01.anchor.set(0.5);
-pac01.tint = Math.random() * 0xFFFFFF;
+//pac01.tint = Math.random() * 0xFFFFFF;
 
 pac01.speedY= 1;
 pac01.speedX = 0;
@@ -51,7 +51,7 @@ window.addEventListener("load", function() {
     //    backgroundColor: 0xffffff,
     //});
     //
-    app.renderer.resize(document.body.clientWidth, window.innerHeight - 4);
+    app.renderer.resize(document.body.clientWidth, window.innerHeight - 5);
     pac01.x = app.screen.width / 2;
     pac01.y = app.screen.height / 2;
     var scaleFactor = 0.1;
@@ -64,7 +64,7 @@ window.addEventListener("load", function() {
 
 });
 window.addEventListener("resize", function() {
-    app.renderer.resize(document.body.clientWidth, window.innerHeight - 4);
+    app.renderer.resize(document.body.clientWidth, window.innerHeight - 5);
 
     pac01.x = app.screen.width / 2;
     pac01.y = app.screen.height / 2;
