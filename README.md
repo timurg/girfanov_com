@@ -1,2 +1,0 @@
-# girfanov_com
- 
