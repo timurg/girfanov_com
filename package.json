@@ -1,0 +1,26 @@
+{
+  "name": "girfanov_com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timurg/girfanov_com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timurg/girfanov_com/issues"
+  },
+  "homepage": "https://github.com/timurg/girfanov_com#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "nes.css": "^2.3.0"
+  }
+}
